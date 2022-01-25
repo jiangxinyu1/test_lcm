@@ -1,0 +1,1 @@
+/home/xinyu/software/gcc-linaro-6.4.1-2018.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++    -rdynamic CMakeFiles/test_lcm_2.dir/src/lcmHandler.cpp.o CMakeFiles/test_lcm_2.dir/src/test_lcm.cpp.o  -o ../bin/test_lcm_2 -Wl,-rpath,/home/xinyu/cleanRobot/thirdparty/lib /home/xinyu/cleanRobot/thirdparty/lib/liblcm.so -lpthread 

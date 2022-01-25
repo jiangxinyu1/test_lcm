@@ -20,9 +20,20 @@ include_directories(
 
 FILE(
   GLOB
-  SO_FILES
-  # ... 
+  SRC_FILES
+  ${PROJECT_SOURCE_DIR}/src/lcmHandler.cpp
+  ${PROJECT_SOURCE_DIR}/src/test.cpp
 )
 
-add_executable(test_lcm ./src/test.cpp)
-target_link_libraries(test_lcm ${LCM_LIBRARY})
+FILE(
+  GLOB
+  SRC_FILES_2
+  ${PROJECT_SOURCE_DIR}/src/lcmHandler.cpp
+  ${PROJECT_SOURCE_DIR}/src/test_lcm.cpp
+)
+
+# add_executable(test_lcm ${SRC_FILES})
+# target_link_libraries(test_lcm ${LCM_LIBRARY})
+
+add_executable(test_lcm_2 ${SRC_FILES_2})
+target_link_libraries(test_lcm_2 ${LCM_LIBRARY})

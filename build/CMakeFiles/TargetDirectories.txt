@@ -1,0 +1,3 @@
+/home/xinyu/workspace/360/test_lcm/build/CMakeFiles/rebuild_cache.dir
+/home/xinyu/workspace/360/test_lcm/build/CMakeFiles/test_lcm_2.dir
+/home/xinyu/workspace/360/test_lcm/build/CMakeFiles/edit_cache.dir
